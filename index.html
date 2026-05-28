@@ -1,568 +1,154 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>AI at Work 101: Make the Most of Free AI Tools — KhaiLab</title>
-<meta name="description" content="A paid live workshop from Kind Human AI Labs. Teach your small team how to safely get more out of free AI tools — ChatGPT, Copilot Chat, Gemini, Perplexity — without new subscriptions or hype." />
-<meta property="og:title" content="AI at Work 101: Make the Most of Free AI Tools" />
-<meta property="og:description" content="Paid live workshop for small teams. Right Job. Right AI. Right Way. No new subscriptions. No hype." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://khailabs.com/ai-at-work-101" />
-<link rel="canonical" href="https://khailabs.com/ai-at-work-101" />
-<link rel="icon" type="image/png" href="khailab-logo-dark.png" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kind Human AI Labs | AI Adoption, Copilot Enablement, and Automation for SMBs</title>
+  <meta name="description" content="Kind Human AI Labs helps small businesses with 1–100 employees adopt Microsoft Copilot, Google Workspace AI, and practical automation with clarity, training, and human-centered execution." />
+  <meta property="og:title" content="Kind Human AI Labs" />
+  <meta property="og:description" content="AI adoption, Copilot enablement, and practical automation for SMBs with 1–100 employees." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.kindhumanailabs.com/" />
+  <link rel="canonical" href="https://www.kindhumanailabs.com/" />
+  <link rel="icon" type="image/png" href="khailab-logo-dark.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body id="top">
+  <header class="nav">
+    <a href="#top" class="nav__brand" aria-label="Kind Human AI Labs home">
+      <img src="khailab-logo.png" alt="Kind Human AI Labs logo" class="nav__logo" />
+      <span class="nav__wordmark">Kind Human AI Labs <span class="nav__wordmark-sub">| KhaiLab</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#why">Why it matters</a>
+      <a href="#about">About Jorge</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--sm btn--primary">Get started</a>
+  </header>
 
-<!-- ============ NAV ============ -->
-<header class="nav">
-  <a href="#top" class="nav__brand" aria-label="KhaiLab home">
-    <img src="khailab-logo.png" alt="" class="nav__logo" />
-    <span class="nav__wordmark">Kind Human AI Labs</span>
-  </a>
-  <nav class="nav__links" aria-label="Primary">
-    <a href="#framework">Framework</a>
-    <a href="#audience">Who it's for</a>
-    <a href="#pricing">Workshop</a>
-    <a href="#cheatsheet">Free cheat-sheet</a>
-  </nav>
-  <a href="#book" class="btn btn--sm btn--primary">Book a call</a>
-</header>
-
-<!-- ============ HERO ============ -->
-<section class="hero" id="top">
-  <div class="hero__inner">
-    <p class="eyebrow">Live workshop · 2 × 90 minutes · For teams of 2–25</p>
-    <h1 class="hero__title">
-      AI at Work 101:<br/>
-      <span class="grad">Make the Most of Free AI Tools.</span>
-    </h1>
-    <p class="hero__sub">
-      Most teams aren't held back by access — they're held back by not knowing
-      <em>which AI when</em>. We teach your team a simple habit they can use tomorrow,
-      using the free versions of the tools they already have.
-    </p>
-    <div class="hero__cta">
-      <a href="#book" class="btn btn--primary btn--lg">Book a discovery call</a>
-      <a href="#cheatsheet" class="btn btn--ghost btn--lg">Get the free cheat-sheet</a>
-    </div>
-    <p class="hero__meta">No new subscriptions. No hype. No fear-mongering.</p>
-  </div>
-  <div class="hero__bgblob" aria-hidden="true"></div>
-</section>
-
-<!-- ============ FRAMEWORK ============ -->
-<section class="section" id="framework">
-  <div class="container">
-    <p class="eyebrow eyebrow--center">The habit we teach</p>
-    <h2 class="section__title">Right Job. Right AI. Right Way.</h2>
-    <p class="section__lede">
-      Three questions. Ten seconds. Teachable to anyone on your team — even the
-      person who still calls AI "the chat-bot thing."
-    </p>
-
-    <ol class="steps">
-      <li class="step">
-        <span class="step__num">01</span>
-        <h3 class="step__h">Right Job</h3>
-        <p class="step__p">
-          Should an AI even do this? Some tasks are too quick, too sensitive,
-          or too human. AI is a tool, not a reflex.
-        </p>
-      </li>
-      <li class="step">
-        <span class="step__num">02</span>
-        <h3 class="step__h">Right AI</h3>
-        <p class="step__p">
-          Think of AI tools as employees with different specialties. ChatGPT writes.
-          Copilot works inside Microsoft. Gemini works inside Google. Perplexity researches.
-          Wrong tool = confidently wrong output.
-        </p>
-      </li>
-      <li class="step">
-        <span class="step__num">03</span>
-        <h3 class="step__h">Right Way</h3>
-        <p class="step__p">
-          Give it a role, give it context, give it constraints — then verify
-          before it leaves your hands. Especially anything with a name, a
-          number, or a dollar sign.
-        </p>
-      </li>
-    </ol>
-
-    <blockquote class="pullquote">
-      "AI will lie to you with confidence. Not because it's malicious — because it doesn't always know what it doesn't know."
-      <cite>— Jorge, KhaiLab</cite>
-    </blockquote>
-  </div>
-</section>
-
-<!-- ============ WHO IT'S FOR ============ -->
-<section class="section section--alt" id="audience">
-  <div class="container">
-    <p class="eyebrow eyebrow--center">Who this is for</p>
-    <h2 class="section__title">Built for AI-curious small teams.</h2>
-
-    <div class="audience">
-      <div class="audience__card">
-        <h3>You'll love it if…</h3>
-        <ul class="check">
-          <li>You lead a team of <strong>2–25 people</strong> and want everyone moving in the same direction with AI.</li>
-          <li>You're <strong>AI-curious</strong> but tired of the firehose of new tools, tips, and threads.</li>
-          <li>You've watched AI confidently make up a name, number, or quote — and you don't want that in a client email.</li>
-          <li>You'd rather <strong>master free tools first</strong> than rack up subscriptions you don't use.</li>
-        </ul>
+  <main>
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Human-centered AI adoption for small business</p>
+          <h1>I Build Champion Teams for Copilot.</h1>
+          <p class="hero__lead">
+            Kind Human AI Labs helps SMBs with 1–100 employees adopt Microsoft Copilot, Google Workspace AI, and practical automation without confusion, wasted licenses, or hype.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Book a discovery call</a>
+            <a href="mailto:info@kindhumanailabs.com" class="btn btn--secondary">Email info@kindhumanailabs.com</a>
+          </div>
+          <ul class="hero__points" aria-label="Highlights">
+            <li>Built for SMBs with 1–100 employees.</li>
+            <li>Practical rollout plans, training, and change support.</li>
+            <li>Clear outcomes for leaders, admins, and end users.</li>
+          </ul>
+        </div>
+        <div class="hero__card">
+          <p class="hero__card-label">What KhaiLab delivers</p>
+          <h2>Clarity, adoption, and measurable AI momentum.</h2>
+          <p>
+            From workshops to accelerator engagements, Jorge Maltes helps teams turn AI interest into safe, useful day-to-day habits.
+          </p>
+        </div>
       </div>
-      <div class="audience__card audience__card--dark">
-        <h3>It's not for you if…</h3>
-        <ul class="x">
-          <li>You want a one-hour "AI hype" pep talk with no practical takeaway.</li>
-          <li>You want us to sell your team more software. We don't.</li>
-          <li>You're a 500-person enterprise needing a full governance program (we have other offers for that).</li>
-        </ul>
+    </section>
+
+    <section id="services" class="section section--soft">
+      <div class="container">
+        <div class="section__intro">
+          <p class="eyebrow">Services</p>
+          <h2>Advisory and execution that meet SMBs where they are.</h2>
+          <p>Choose a focused workshop, an accelerator, or a hands-on build based on your current stack and business goals.</p>
+        </div>
+
+        <div class="cards cards--four">
+          <article class="card">
+            <p class="card__eyebrow">Microsoft AI Accelerator</p>
+            <h3>Copilot readiness, adoption, and team enablement.</h3>
+            <p>Best for organizations standardizing on Microsoft 365 and preparing leaders and end users for practical Copilot usage.</p>
+            <p class="card__price">$2,500–$4,500/day</p>
+            <a href="#contact" class="text-link">Get started</a>
+          </article>
+
+          <article class="card">
+            <p class="card__eyebrow">Google Workspace AI Accelerator</p>
+            <h3>Gemini and Workspace AI adoption with business context.</h3>
+            <p>Best for teams using Google Workspace that need structure, governance, and role-based use cases that actually stick.</p>
+            <p class="card__price">$2,000–$3,500/day</p>
+            <a href="#contact" class="text-link">Get started</a>
+          </article>
+
+          <article class="card">
+            <p class="card__eyebrow">Free Tools AI Starter</p>
+            <h3>Fast-start AI guidance using tools you may already have.</h3>
+            <p>Best for smaller businesses that want immediate wins with low cost and a practical training-first approach.</p>
+            <p class="card__price">$750–$1,200/day</p>
+            <a href="#contact" class="text-link">Get started</a>
+          </article>
+
+          <article class="card">
+            <p class="card__eyebrow">AI Automation Build</p>
+            <h3>Workflow design and automation for repetitive business tasks.</h3>
+            <p>Best for teams ready to reduce manual work with simple, maintainable automation tied to real operations.</p>
+            <p class="card__price">$3,500–$8,000/project</p>
+            <a href="#contact" class="text-link">Get started</a>
+          </article>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ============ PRICING / WORKSHOP ============ -->
-<section class="section" id="pricing">
-  <div class="container">
-    <p class="eyebrow eyebrow--center">The workshop</p>
-    <h2 class="section__title">This is a <span class="underline-accent">paid live workshop</span>.</h2>
-    <p class="section__lede">
-      Real humans, live on Zoom or Teams, working through your actual tasks.
-      Not a course. Not a recording. Not a free trial.
-    </p>
-
-    <div class="pricecard">
-      <div class="pricecard__left">
-        <p class="pricecard__eyebrow">AI at Work 101</p>
-        <h3 class="pricecard__title">Make the Most of Free AI Tools</h3>
-        <p class="pricecard__price">
-          <span class="pricecard__amt">From&nbsp;$1,495</span>
-          <span class="pricecard__per">flat fee for your team</span>
-        </p>
-        <p class="pricecard__fine">
-          Pricing scales by team size (2–25 people). Final quote on the discovery call.
-          Cheaper than one bad client email written by a confidently wrong AI.
-        </p>
+    <section id="why" class="section">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Why it matters</p>
+          <h2>Most businesses do not need more AI noise. They need useful adoption.</h2>
+        </div>
+        <div class="stack">
+          <p>Buying licenses is easy. Getting real behavior change, manager confidence, and everyday employee usage is the harder part.</p>
+          <p>KhaiLab focuses on practical rollout, grounded guidance, and people-first adoption so AI becomes part of work instead of another abandoned initiative.</p>
+        </div>
       </div>
-      <div class="pricecard__right">
-        <p class="pricecard__what">What's included</p>
-        <ul class="incl">
-          <li><strong>2 × 90-minute live sessions</strong> on Teams or Zoom</li>
-          <li>Live demos using <strong>your actual work</strong> — emails, meetings, documents</li>
-          <li>The <em>Right Job · Right AI · Right Way</em> framework and worksheets</li>
-          <li>A <strong>30-day plan</strong> so your team keeps using AI after we're gone</li>
-          <li>Recording + facilitator notes you can share with anyone who missed it</li>
-        </ul>
-        <a href="#book" class="btn btn--primary btn--lg btn--full">Book a discovery call</a>
+    </section>
+
+    <section id="about" class="section section--accent">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">About Jorge</p>
+          <h2>Experienced IT leadership with a human approach to AI change.</h2>
+        </div>
+        <div class="stack">
+          <p>Jorge Maltes brings deep experience in digital workplace, Microsoft 365, infrastructure, service delivery, and end-user enablement.</p>
+          <p>Through Kind Human AI Labs, he helps small businesses adopt AI in a way that respects people, strengthens operations, and builds internal confidence.</p>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ============ CHEAT-SHEET OPT-IN ============ -->
-<section class="section section--dark" id="cheatsheet">
-  <div class="container container--narrow">
-    <p class="eyebrow eyebrow--center eyebrow--light">Not ready to book?</p>
-    <h2 class="section__title section__title--light">Grab the free one-page cheat-sheet.</h2>
-    <p class="section__lede section__lede--light">
-      "What AI Tool Do I Use?" — a printable map of everyday work tasks to the
-      right free AI tool for the job. Tape it next to your monitor. Share it with
-      your team. Costs nothing, saves a lot.
-    </p>
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div class="section__intro">
+          <p class="eyebrow">Contact</p>
+          <h2>Start with a simple conversation.</h2>
+          <p>Email the team now, or connect your intake form here as the single source of truth for new leads.</p>
+        </div>
 
-    <form class="optin"
-          action="https://formsubmit.co/info@khailabs.com"
-          method="POST"
-          aria-label="Free cheat-sheet opt-in">
-      <input type="hidden" name="_subject" value="KhaiLab — Cheat-sheet request" />
-      <input type="hidden" name="_template" value="table" />
-      <input type="hidden" name="_next" value="https://khailabs.com/thanks" />
-      <input type="hidden" name="source" value="ai-at-work-101 landing" />
-
-      <div class="optin__row">
-        <label class="sr-only" for="name">First name</label>
-        <input type="text" name="name" id="name" placeholder="First name" required />
-
-        <label class="sr-only" for="email">Work email</label>
-        <input type="email" name="email" id="email" placeholder="Work email" required />
-
-        <button type="submit" class="btn btn--primary btn--lg">Send me the cheat-sheet</button>
+        <div class="contact__card">
+          <p><strong>Email:</strong> <a href="mailto:info@kindhumanailabs.com">info@kindhumanailabs.com</a></p>
+          <p><strong>Audience:</strong> SMBs with 1–100 employees.</p>
+          <p><strong>Focus:</strong> Copilot enablement, Google Workspace AI adoption, AI training, and workflow automation.</p>
+          <div class="hero__actions">
+            <a href="mailto:info@kindhumanailabs.com?subject=KhaiLab%20Discovery%20Call" class="btn btn--primary">Email to get started</a>
+            <a href="#top" class="btn btn--secondary">Back to top</a>
+          </div>
+        </div>
       </div>
-      <p class="optin__fine">One email with the PDF. No drip campaign. Unsubscribe in one click.</p>
-    </form>
-  </div>
-</section>
-
-<!-- ============ FINAL CTA ============ -->
-<section class="section" id="book">
-  <div class="container container--narrow center">
-    <p class="eyebrow eyebrow--center">One CTA. One conversation.</p>
-    <h2 class="section__title">Book a 20-minute discovery call.</h2>
-    <p class="section__lede">
-      We'll talk about your team, your tools, and what you actually want to get
-      done with AI. If the workshop is a fit, we'll schedule it. If it isn't,
-      you'll still leave the call with two or three useful ideas. That's the
-      deal.
-    </p>
-    <a href="mailto:info@khailabs.com?subject=AI%20at%20Work%20101%20%E2%80%94%20Discovery%20call&body=Hi%20KhaiLab%20team%2C%0A%0AI%27d%20like%20to%20book%20a%20discovery%20call%20for%20AI%20at%20Work%20101.%0A%0ATeam%20size%3A%20%0AOur%20main%20AI%20stack%20today%3A%20%0AWhat%20we%27re%20stuck%20on%3A%20%0A%0AThanks%21"
-       class="btn btn--primary btn--xl">Email us to book the call</a>
-    <p class="muted">Or reply <strong>"AI 101"</strong> to any KhaiLab post or DM on LinkedIn.</p>
-  </div>
-</section>
-
-<!-- ============ FOOTER ============ -->
-<footer class="footer">
-  <div class="container footer__row">
-    <div class="footer__brand">
-      <img src="khailab-logo.png" alt="" class="footer__logo" />
-      <div>
-        <p class="footer__name">Kind Human AI Labs</p>
-        <p class="footer__tag">Be kind to humans. Be skeptical of robots.</p>
-      </div>
-    </div>
-    <div class="footer__meta">
-      <p>Brandon / Tampa Bay, FL</p>
-      <p><a href="https://khailabs.com">khailabs.com</a> &middot; <a href="mailto:info@khailabs.com">info@khailabs.com</a></p>
-    </div>
-  </div>
-  <p class="footer__copyright">© 2026 Kind Human AI Labs · KhaiLab</p>
-</footer>
-
-<script data-pplx-inline-edit>
-(function () {
-  if (window === window.top) return;
-
-  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
-  const MAX_FONT_BYTES = 500 * 1024;
-  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
-  let scrollForwarding = false;
-  let scrollRaf = 0;
-  let trustedTopOrigin = null;
-
-  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
-  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
-  // across multiple labels.
-  function matchesAllowedOrigin(origin) {
-    if (!origin) return false;
-    for (const entry of allowedParentOrigins) {
-      if (!entry.includes("*")) {
-        if (entry === origin) return true;
-        continue;
-      }
-      const pattern = new RegExp(
-        "^" +
-          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
-          "$",
-      );
-      if (pattern.test(origin)) return true;
-    }
-    return false;
-  }
-
-  // Trust decision: when the sender is same-origin-visible (event.origin is a
-  // real origin like https://www.perplexity.ai) we trust event.origin directly.
-  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
-  // broker's stamped `parentOrigin` to identify the top window. The fallback
-  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
-  // on the response path (see postToTrustedTop) to ensure replies can't be
-  // delivered to anyone but the actual top window of that claimed origin.
-  function getTrustedParentOrigin(event) {
-    const forwardedParentOrigin =
-      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
-    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
-    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
-  }
-
-  // All responses go to window.top with targetOrigin = the allowlisted origin.
-  // An attacker that iframes us inside their own null-origin broker can claim
-  // any parentOrigin they like, but the browser will drop the reply whenever
-  // the real top's origin doesn't match — so the screenshot never leaves.
-  function postToTrustedTop(message) {
-    if (!trustedTopOrigin) return;
-    try {
-      window.top.postMessage(message, trustedTopOrigin);
-    } catch (_error) {}
-  }
-
-  function inlineAll(original, clone) {
-    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
-
-    try {
-      const computedStyle = getComputedStyle(original);
-      // cssText on a computed style is the serialized declaration in modern
-      // Chromium/Safari — a single read beats enumerating ~400 longhand
-      // properties. Firefox returns "" here, so we fall back on empty.
-      const serialized = computedStyle.cssText;
-      if (serialized) {
-        clone.style.cssText = serialized;
-      } else {
-        const parts = new Array(computedStyle.length);
-        for (let index = 0; index < computedStyle.length; index += 1) {
-          const property = computedStyle[index];
-          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
-        }
-        clone.style.cssText = parts.join("");
-      }
-    } catch (_error) {}
-
-    const originalChildren = original.children;
-    const clonedChildren = clone.children;
-    for (
-      let index = 0;
-      index < originalChildren.length && index < clonedChildren.length;
-      index += 1
-    ) {
-      inlineAll(originalChildren[index], clonedChildren[index]);
-    }
-  }
-
-  function extractFontUrl(srcValue) {
-    const matches = [
-      ...srcValue.matchAll(
-        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
-      ),
-    ];
-    if (matches.length === 0) return null;
-    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
-    if (woff2) return woff2[1];
-    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
-    if (woff) return woff[1];
-    return matches[0][1];
-  }
-
-  // Cache resolved font URL -> data URI across captures. Fonts on a page
-  // essentially never change, and a batch run emits multiple captures back to
-  // back — without this we'd refetch + re-base64 every time.
-  const fontDataUriCache = new Map();
-  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
-
-  async function fetchAsDataUri(url) {
-    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
-    let dataUri = null;
-    try {
-      const response = await fetch(url, { mode: "cors", credentials: "omit" });
-      if (response.ok) {
-        const blob = await response.blob();
-        if (blob.size <= MAX_FONT_BYTES) {
-          dataUri = await new Promise((resolve) => {
-            const reader = new FileReader();
-            reader.onloadend = () =>
-              resolve(typeof reader.result === "string" ? reader.result : null);
-            reader.onerror = () => resolve(null);
-            reader.readAsDataURL(blob);
-          });
-        }
-      }
-    } catch (_error) {
-      dataUri = null;
-    }
-    fontDataUriCache.set(url, dataUri);
-    return dataUri;
-  }
-
-  function collectFontFaceRuleTexts() {
-    const rules = [];
-    for (const sheet of document.styleSheets) {
-      let cssRules;
-      try {
-        cssRules = sheet.cssRules;
-      } catch (_error) {
-        continue;
-      }
-      if (!cssRules) continue;
-      for (const rule of cssRules) {
-        const cssText = rule.cssText || "";
-        if (cssText.startsWith("@font-face")) rules.push(cssText);
-      }
-    }
-    return rules;
-  }
-
-  async function buildInlinedFontCss() {
-    const ruleTexts = collectFontFaceRuleTexts();
-    if (ruleTexts.length === 0) return null;
-
-    const resolved = ruleTexts.map((cssText) => {
-      if (!SRC_DECLARATION_RE.test(cssText)) return null;
-      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
-      if (!srcMatch) return null;
-      const url = extractFontUrl(srcMatch[1]);
-      if (!url) return null;
-      try {
-        return { cssText, url: new URL(url, document.baseURI).href };
-      } catch (_error) {
-        return null;
-      }
-    });
-
-    const dataUris = await Promise.all(
-      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
-    );
-
-    const inlined = [];
-    let totalBytes = 0;
-    for (let index = 0; index < resolved.length; index += 1) {
-      const entry = resolved[index];
-      const dataUri = dataUris[index];
-      if (!entry || !dataUri) continue;
-      const approxBytes = dataUri.length * 0.75;
-      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
-      totalBytes += approxBytes;
-      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
-    }
-    return inlined.length > 0 ? inlined.join("\n") : null;
-  }
-
-  function stripExternal(clone) {
-    const images = clone.querySelectorAll("img");
-    for (let index = 0; index < images.length; index += 1) {
-      const src = images[index].getAttribute("src");
-      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
-    }
-
-    const elements = clone.querySelectorAll("*");
-    for (let index = 0; index < elements.length; index += 1) {
-      const style = elements[index].style.cssText;
-      if (style && style.includes("url(")) {
-        elements[index].style.cssText = style.replace(
-          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
-          "none",
-        );
-      }
-    }
-  }
-
-  function emitScroll() {
-    scrollRaf = 0;
-    if (!scrollForwarding) return;
-    postToTrustedTop({
-      type: "INLINE_EDIT_SCROLL",
-      scrollX: window.scrollX,
-      scrollY: window.scrollY,
-    });
-  }
-
-  window.addEventListener(
-    "scroll",
-    function () {
-      if (!scrollForwarding || scrollRaf) return;
-      scrollRaf = requestAnimationFrame(emitScroll);
-    },
-    { passive: true, capture: true },
-  );
-
-  async function handleCaptureRequest(event) {
-    const requestId = event.data.requestId;
-    const scrollX = window.scrollX;
-    const scrollY = window.scrollY;
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-
-    function postResult(dataUrl) {
-      postToTrustedTop({
-        type: "INLINE_EDIT_SCREENSHOT_RESULT",
-        requestId,
-        dataUrl,
-        scrollX,
-        scrollY,
-      });
-    }
-
-    try {
-      // Wait for any pending web fonts to resolve so both inline metrics and
-      // the @font-face inlining below see the same loaded faces.
-      if (document.fonts && document.fonts.ready) {
-        try {
-          await document.fonts.ready;
-        } catch (_error) {}
-      }
-
-      const clone = document.documentElement.cloneNode(true);
-      inlineAll(document.documentElement, clone);
-
-      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
-      for (let index = 0; index < removedNodes.length; index += 1) {
-        removedNodes[index].remove();
-      }
-
-      stripExternal(clone);
-
-      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
-      // can resolve them — external font URLs aren't fetched during
-      // foreignObject rendering, which would otherwise force a fallback face
-      // and change text metrics.
-      const inlinedFontCss = await buildInlinedFontCss();
-      if (inlinedFontCss) {
-        const styleEl = document.createElement("style");
-        styleEl.textContent = inlinedFontCss;
-        const head = clone.querySelector("head");
-        if (head) head.appendChild(styleEl);
-        else clone.insertBefore(styleEl, clone.firstChild);
-      }
-
-      const html = new XMLSerializer().serializeToString(clone);
-      const svg =
-        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
-        '<foreignObject width="100%" height="100%">' +
-        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
-        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
-        html +
-        "</div></div></foreignObject></svg>";
-      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
-      const image = new Image();
-      image.onload = function () {
-        const canvas = document.createElement("canvas");
-        canvas.width = width;
-        canvas.height = height;
-        canvas.getContext("2d").drawImage(image, 0, 0);
-        postResult(canvas.toDataURL("image/png"));
-      };
-      image.onerror = function () {
-        postResult(null);
-      };
-      image.src = svgUrl;
-    } catch (_error) {
-      postResult(null);
-    }
-  }
-
-  window.addEventListener("message", function (event) {
-    if (!event.data) return;
-    // Only accept messages from the direct parent frame. Blocks sibling /
-    // unrelated-window postMessage senders that could otherwise reach us.
-    if (event.source !== window.parent) return;
-
-    const trustedParentOrigin = getTrustedParentOrigin(event);
-    if (!trustedParentOrigin) return;
-    trustedTopOrigin = trustedParentOrigin;
-
-    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
-      scrollForwarding = true;
-      emitScroll();
-      return;
-    }
-
-    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
-      scrollForwarding = false;
-      if (scrollRaf) cancelAnimationFrame(scrollRaf);
-      scrollRaf = 0;
-      return;
-    }
-
-    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
-
-    handleCaptureRequest(event);
-  });
-})();
-
-
-</script></body>
+    </section>
+  </main>
+</body>
 </html>
